@@ -24,7 +24,9 @@ const styles = StyleSheet.create({
     }
 })
 
-const AppBarTab =  ({active, children, to}) =>{
+const AppBarTab =  ({children, to}) =>{
+    const { pathname } = useLocation()
+    const active = pathname === to
     const textStyles = [
         styles.text,
         active && styles.active
@@ -39,17 +41,12 @@ const AppBarTab =  ({active, children, to}) =>{
 }
 
 const AppBar = () => {
-    const { pathname } = useLocation()
     return (
         <View style={styles.container}>
             <ScrollView horizontal
                 style={styles.scroll}>
-                <AppBarTab active={pathname === '/'} to='/'>Repositories</AppBarTab>
-                <AppBarTab active={pathname === '/signin'} to='/signin'>Sign In</AppBarTab>
-                <AppBarTab active={pathname === '/signup'} to='/signup'>Sign Up</AppBarTab>
-                <AppBarTab active={pathname === '/account'} to='/account'>Account</AppBarTab>
-                <AppBarTab active={pathname === '/favorites'} to='/favorites'>My Favorites</AppBarTab>
-                <AppBarTab active={pathname === '/repositories'} to='/repositories'>My Repositories</AppBarTab>
+                <AppBarTab to='/'>Repositories</AppBarTab>
+                <AppBarTab to='/signin'>Sign In</AppBarTab>
             </ScrollView>
         </View>
     )
