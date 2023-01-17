@@ -7,7 +7,7 @@ import { Link, TouchableWithoutFeedback, useLocation } from 'react-router-native
 
 const styles = StyleSheet.create({
     container:{
-        backgroundColor: theme.appBar.primary,
+        backgroundColor: 'purple',
         paddingTop: Constants.statusBarHeight + 10,
         paddingLeft: 10,
         flexDirection: 'row',
