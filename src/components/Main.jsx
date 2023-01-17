@@ -1,8 +1,13 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { Platform, View, Text } from 'react-native'
 import RepositoryList from './RepositoryList.jsx'
-import AppBar from './AppBar.jsx'
 import {Routes, Route} from 'react-router-native'
+
+//How to select a specific component per platform
+const AppBar = Platform.select({
+    ios: () => require('./IosAppBar.jsx').default,
+    default: () => require('./AppBar.jsx').default,
+})()
 
 const Main = () =>{
     return (
