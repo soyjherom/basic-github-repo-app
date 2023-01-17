@@ -8,12 +8,20 @@ const styles = StyleSheet.create({
     language: {
         padding: 4,
         color: theme.colors.white,
-        backgroundColor: theme.colors.primary,
+        backgroundColor: Platform.select({
+            android: theme.colors.primary,
+            ios: 'orange',
+            default: 'purple'
+        }),
         alignSelf: 'flex-start',
+        marginVertical: 4,
         borderRadius: 4,
-        overflow: 'hidden',
-        marginTop: 4,
-        marginBottom: 4,
+        overflow: 'hidden'
+    },
+    image: {
+        width: 48,
+        height: 48,
+        borderRadius: 4
     }
 })
 
