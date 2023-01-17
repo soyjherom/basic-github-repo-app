@@ -1,0 +1,178 @@
+export default [
+    {
+        id: 'django.django 1',
+        fullName: 'django/django',
+        description: 'The web framework for perfectionist with deadlines.',
+        language: 'Python',
+        forksCount: 21015,
+        stargazersCount: 48496,
+        ratingAverage: 73,
+        reviewCount: 5,
+        ownerAvatarUrl: 'https://avatars2.githubusercontent.com/u/27804?v=4'
+    },
+    {
+        id:'reduxjs.redux 1',
+        fullName:'reduxjs/reduxjs',
+        description: 'Predictable state container for JavaScript apps',
+        language: 'TypeScript',
+        forksCount: 13902,
+        stargazersCount: 52869,
+        ratingAverage: 0,
+        reviewCount: 0,
+        ownerAvatarUrl: 'https://avatars3.githubusercontent.com/u/13142323?v=4'
+    },
+    {
+        id: 'django.django 2',
+        fullName: 'django/django',
+        description: 'The web framework for perfectionist with deadlines.',
+        language: 'Python',
+        forksCount: 21015,
+        stargazersCount: 48496,
+        ratingAverage: 73,
+        reviewCount: 5,
+        ownerAvatarUrl: 'https://avatars2.githubusercontent.com/u/27804?v=4'
+    },
+    {
+        id:'reduxjs.redux 2',
+        fullName:'reduxjs/reduxjs',
+        description: 'Predictable state container for JavaScript apps',
+        language: 'TypeScript',
+        forksCount: 13902,
+        stargazersCount: 52869,
+        ratingAverage: 0,
+        reviewCount: 0,
+        ownerAvatarUrl: 'https://avatars3.githubusercontent.com/u/13142323?v=4'
+    },
+    {
+        id: 'django.django 3',
+        fullName: 'django/django',
+        description: 'The web framework for perfectionist with deadlines.',
+        language: 'Python',
+        forksCount: 21015,
+        stargazersCount: 48496,
+        ratingAverage: 73,
+        reviewCount: 5,
+        ownerAvatarUrl: 'https://avatars2.githubusercontent.com/u/27804?v=4'
+    },
+    {
+        id:'reduxjs.redux 3',
+        fullName:'reduxjs/reduxjs',
+        description: 'Predictable state container for JavaScript apps',
+        language: 'TypeScript',
+        forksCount: 13902,
+        stargazersCount: 52869,
+        ratingAverage: 0,
+        reviewCount: 0,
+        ownerAvatarUrl: 'https://avatars3.githubusercontent.com/u/13142323?v=4'
+    },
+    {
+        id: 'django.django 4',
+        fullName: 'django/django',
+        description: 'The web framework for perfectionist with deadlines.',
+        language: 'Python',
+        forksCount: 21015,
+        stargazersCount: 48496,
+        ratingAverage: 73,
+        reviewCount: 5,
+        ownerAvatarUrl: 'https://avatars2.githubusercontent.com/u/27804?v=4'
+    },
+    {
+        id:'reduxjs.redux 4',
+        fullName:'reduxjs/reduxjs',
+        description: 'Predictable state container for JavaScript apps',
+        language: 'TypeScript',
+        forksCount: 13902,
+        stargazersCount: 52869,
+        ratingAverage: 0,
+        reviewCount: 0,
+        ownerAvatarUrl: 'https://avatars3.githubusercontent.com/u/13142323?v=4'
+    },
+    {
+        id: 'django.django 5',
+        fullName: 'django/django',
+        description: 'The web framework for perfectionist with deadlines.',
+        language: 'Python',
+        forksCount: 21015,
+        stargazersCount: 48496,
+        ratingAverage: 73,
+        reviewCount: 5,
+        ownerAvatarUrl: 'https://avatars2.githubusercontent.com/u/27804?v=4'
+    },
+    {
+        id:'reduxjs.redux 5',
+        fullName:'reduxjs/reduxjs',
+        description: 'Predictable state container for JavaScript apps',
+        language: 'TypeScript',
+        forksCount: 13902,
+        stargazersCount: 52869,
+        ratingAverage: 0,
+        reviewCount: 0,
+        ownerAvatarUrl: 'https://avatars3.githubusercontent.com/u/13142323?v=4'
+    },
+    {
+        id: 'django.django 6',
+        fullName: 'django/django',
+        description: 'The web framework for perfectionist with deadlines.',
+        language: 'Python',
+        forksCount: 21015,
+        stargazersCount: 48496,
+        ratingAverage: 73,
+        reviewCount: 5,
+        ownerAvatarUrl: 'https://avatars2.githubusercontent.com/u/27804?v=4'
+    },
+    {
+        id:'reduxjs.redux 6',
+        fullName:'reduxjs/reduxjs',
+        description: 'Predictable state container for JavaScript apps',
+        language: 'TypeScript',
+        forksCount: 13902,
+        stargazersCount: 52869,
+        ratingAverage: 0,
+        reviewCount: 0,
+        ownerAvatarUrl: 'https://avatars3.githubusercontent.com/u/13142323?v=4'
+    },
+    {
+        id: 'django.django 7',
+        fullName: 'django/django',
+        description: 'The web framework for perfectionist with deadlines.',
+        language: 'Python',
+        forksCount: 21015,
+        stargazersCount: 48496,
+        ratingAverage: 73,
+        reviewCount: 5,
+        ownerAvatarUrl: 'https://avatars2.githubusercontent.com/u/27804?v=4'
+    },
+    {
+        id:'reduxjs.redux 7',
+        fullName:'reduxjs/reduxjs',
+        description: 'Predictable state container for JavaScript apps',
+        language: 'TypeScript',
+        forksCount: 13902,
+        stargazersCount: 52869,
+        ratingAverage: 0,
+        reviewCount: 0,
+        ownerAvatarUrl: 'https://avatars3.githubusercontent.com/u/13142323?v=4'
+    },
+    {
+        id: 'django.django 8',
+        fullName: 'django/django',
+        description: 'The web framework for perfectionist with deadlines.',
+        language: 'Python',
+        forksCount: 21015,
+        stargazersCount: 48496,
+        ratingAverage: 73,
+        reviewCount: 5,
+        ownerAvatarUrl: 'https://avatars2.githubusercontent.com/u/27804?v=4'
+    },
+    {
+        id:'reduxjs.redux 8',
+        fullName:'reduxjs/reduxjs',
+        description: 'Predictable state container for JavaScript apps',
+        language: 'TypeScript',
+        forksCount: 13902,
+        stargazersCount: 52869,
+        ratingAverage: 0,
+        reviewCount: 0,
+        ownerAvatarUrl: 'https://avatars3.githubusercontent.com/u/13142323?v=4'
+    },
+]
