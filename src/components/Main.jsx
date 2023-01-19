@@ -3,6 +3,7 @@ import { Platform, View, Text } from 'react-native'
 import RepositoryList from './RepositoryList.jsx'
 import {Routes, Route} from 'react-router-native'
 import AppBar from './AppBar'
+import { LoginPage } from '../pages/Login'
 
 const Main = () =>{
     return (
@@ -16,7 +17,7 @@ const Main = () =>{
                 />
                 <Route path='/signin'
                     element={
-                        <Text>Sign in</Text>
+                        <LoginPage/>
                     }
                 />
                 <Route path='/signup'
